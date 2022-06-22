@@ -27,4 +27,4 @@ jobs:
         with:
           push: true
           tags: dpejcev/storm
-          context: "./2.4.0"
+          context: "{{defaultContext}}:2.4.0"
